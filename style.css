@@ -340,7 +340,9 @@ margin-bottom: 10px;
 border: 1px solid #ccc;
 border-radius: 5px;
 resize: vertical;
+width: -webkit-fill-available;
 }
+
 
 #testimonial-form button {
 background-color: #007bff;
@@ -353,6 +355,9 @@ font-size: medium;
 font-family: 'Times New Roman', Times, serif;
 transition: background-color 0.3s;
 }
+
+
+
 
 #testimonial-form button:hover {
 background-color: #0056b3;
